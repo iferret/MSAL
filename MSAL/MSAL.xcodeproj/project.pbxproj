@@ -4843,7 +4843,7 @@
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.1.24;
 				USER_HEADER_SEARCH_PATHS = "$(inherited) $IDCORE_PATH/src/**";
 			};
@@ -4857,7 +4857,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.1.24;
 				USER_HEADER_SEARCH_PATHS = "$(inherited) $IDCORE_PATH/src/**";
 			};
@@ -4982,6 +4982,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 			};
 			name = Debug;
 		};
@@ -4991,6 +4993,8 @@
 			buildSettings = {
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
 				ENABLE_BITCODE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 			};
 			name = Release;
 		};
